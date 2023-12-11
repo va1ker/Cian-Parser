@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "kv parser"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openpyxl = "^3.1.2"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+alive-progress = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
